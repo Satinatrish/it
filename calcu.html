@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calc">
+        <div id="content">
+            <form>
+                <div id="output">
+                    <input type="text" id='res' style="width: 400px; height: 60px; font-size: 36px;">
+                </div>
+                <div class="btn">
+                    <input type="button" value='C' onclick="Clear()" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='←' onclick="Back()" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='%' onclick="Solve('%')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='/' onclick="Solve('/')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <br>
+                    <input type="button" value='7' onclick="Solve('7')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='8' onclick="Solve('8')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='9' onclick="Solve('9')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='x' onclick="Solve('*')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <br>
+                    <input type="button" value='4' onclick="Solve('4')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='5' onclick="Solve('5')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='6' onclick="Solve('6')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='-' onclick="Solve('-')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <br>
+                    <input type="button" value='1' onclick="Solve('1')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='2' onclick="Solve('2')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='3' onclick="Solve('3')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='+' onclick="Solve('+')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <br>
+                    <input type="button" value='00' onclick="Solve('00')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='0' onclick="Solve('0')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='.' onclick="Solve('.')" style="width: 100px; height: 60px; font-size: 24px;">
+                    <input type="button" value='=' onclick="Result()" style="width: 100px; height: 60px; font-size: 24px;">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src='index.js'></script>
+</body>
+</html>
